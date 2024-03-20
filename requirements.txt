@@ -1,0 +1,7 @@
+Flask==1.1.4
+Keras==2.3.1
+numpy==1.18.5
+opencv-python==4.2.0.34
+pymongo==3.11.4
+tensorflow==2.15.0
+six==1.16.0
