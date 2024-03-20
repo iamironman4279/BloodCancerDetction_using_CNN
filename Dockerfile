@@ -8,7 +8,8 @@ WORKDIR /app
 COPY . /app
 
 # Install required Python packages
-RUN pip install Flask opencv-python-headless pymongo
+RUN pip install Flask opencv-python-headless pymongo && \
+    pip uninstall -y blinker  # Uninstall blinker to avoid conflicts
 
 # Expose the port on which your Flask app will run
 EXPOSE 5000
