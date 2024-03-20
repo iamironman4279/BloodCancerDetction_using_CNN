@@ -1,7 +1,8 @@
-# /flask_mongo_auth/Dockerfile
+# Use Python 3.8 slim image as the base
+FROM python:3.8-slim
 
-# Use Python 3.8 as base image
-FROM python:3.7
+# Install TensorFlow version 2.15.0
+RUN pip install tensorflow==2.15.0
 
 # Set working directory
 WORKDIR /app
