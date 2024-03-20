@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Result</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+        }
+        .prediction {
+            font-size: 24px;
+            margin-bottom: 20px;
+        }
+        .swapped-img {
+            width: 400px;
+            margin: 0 auto;
+        }
+        .back-button {
+            background-color: #3cb371; /* Green color */
+            color: white; /* White text color */
+            border: none; /* Remove border */
+            padding: 10px 15px; /* Padding for better appearance */
+            cursor: pointer; /* Change cursor to pointer */
+            display: inline-block; /* Display as inline block */
+            border-radius: 5px; /* Add some border radius */
+            margin-top: 20px; /* Add margin to separate from image */
+        }
+        .back-button:hover {
+            background-color: #32a052; /* Darker shade of green on hover */
+        }
+        .treatment-info {
+            text-align: left; /* Align text to the left */
+            margin: 20px auto; /* Add margin for better spacing */
+            max-width: 600px; /* Limit maximum width for better readability */
+        }
+        .treatment-info p {
+            margin-bottom: 10px; /* Add some bottom margin to separate paragraphs */
+        }
+        .treatment-info ul {
+            margin-bottom: 20px; /* Add some bottom margin to separate from next element */
+        }
+    </style>
+</head>
+<body>
+    <h1>Result</h1>
+    <div class="prediction">
+        <strong>Cancer detection:</strong> {{ prediction }}
+    </div>
+    <img src="data:image/png;base64,{{ swapped_img_base64 }}" alt="Swapped Image" class="swapped-img">
+    <br>
+    <button class="back-button" onclick="goBack()">Back</button>
+
+    <div class="treatment-info">
+        <h2>Treatment Information:</h2>
+        {% if prediction == "Cancer" %}
+            <p>If the prediction is cancer, it's important to approach treatment carefully. Here are some steps you can take:</p>
+            <ul>
+                <li>Consult with a qualified oncologist for diagnosis and treatment options.</li>
+                <li>Consider various treatment modalities such as surgery, chemotherapy, radiation therapy, immunotherapy, or targeted therapy.</li>
+                <li>Follow a personalized treatment plan tailored to your specific type and stage of cancer.</li>
+                <li>Seek emotional support from loved ones, support groups, or counseling services.</li>
+                <li>Maintain a healthy lifestyle with a balanced diet, regular exercise, and stress management techniques.</li>
+            </ul>
+        {% else %}
+            <p>Congratulations! You don't have cancer. It's always good to receive a normal result.</p>
+        
+        {% endif %}
+    </div>
+
+    <script>
+        function goBack() {
+            window.history.back();
+        }
+    </script>
+</body>
+</html>

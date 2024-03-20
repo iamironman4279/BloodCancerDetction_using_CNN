@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Upload Image</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        .container {
+            margin: 20px auto;
+            width: 400px; /* Increased width to accommodate larger image */
+            text-align: center;
+        }
+        .container h1 {
+            text-align: center;
+        }
+        .container form {
+            margin-top: 20px;
+            text-align: center;
+        }
+        /* Style for input file */
+        input[type="file"] {
+            display: none; /* Hide the default file input */
+        }
+        .custom-file-upload {
+            border: 1px solid #3cb371; /* Green border */
+            background-color: #3cb371; /* Green background color */
+            color: white; /* White text color */
+            padding: 10px 15px; /* Padding for better appearance */
+            cursor: pointer; /* Change cursor to pointer */
+            display: inline-block; /* Display as inline block */
+            border-radius: 5px; /* Add some border radius */
+            margin-top: 20px; /* Add margin to separate from image */
+        }
+        .custom-file-upload:hover {
+            background-color: #32a052; /* Darker shade of green on hover */
+        }
+        /* Style for upload button */
+        button[type="submit"] {
+            background-color: #3cb371; /* Green background color */
+            color: white; /* White text color */
+            border: none; /* Remove border */
+            padding: 10px 15px; /* Padding for better appearance */
+            cursor: pointer; /* Change cursor to pointer */
+            display: inline-block; /* Display as inline block */
+            border-radius: 5px; /* Add some border radius */
+            margin-top: 10px; /* Add margin to separate from file input */
+        }
+        button[type="submit"]:hover {
+            background-color: #32a052; /* Darker shade of green on hover */
+        }
+        /* Style for uploaded image */
+        .uploaded-image {
+            max-width: 100%; /* Limit the width of the image */
+            margin-top: 20px; /* Add margin to separate from file input */
+        }
+        /* Style for awareness content */
+        .awareness-content {
+            text-align: left;
+            margin-top: 50px; /* Add space between image and awareness content */
+        }
+        .awareness-content p {
+            font-size: 16px; /* Normal font size */
+        }
+        .awareness-content ul {
+            margin-top: 10px;
+            margin-left: 20px; /* Indent bullet points */
+            font-size: 16px; /* Normal font size for bullet points */
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Upload Image</h1>
+        <div id="image-container">
+            <!-- This div will contain the uploaded image -->
+        </div>
+        <form method="POST" enctype="multipart/form-data">
+            <label for="file-upload" class="custom-file-upload">Choose File</label>
+            <input id="file-upload" type="file" name="file" accept="image/*" required><br><br>
+            <button type="submit">Upload</button>
+        </form>
+    </div>
+
+    <!-- Awareness Content -->
+    <div class="awareness-content">
+        <p>March is Blood Cancer Awareness Month, a time dedicated to raising awareness about blood cancers, including leukemia, lymphoma, and myeloma. Blood cancers occur when abnormal blood cells start growing uncontrollably, interfering with the normal function of the blood, bone marrow, and lymphatic system.</p>
+        <p>Here are some key points to be aware of:</p>
+        <ul>
+            <li>Blood cancer affects people of all ages, including children and adults.</li>
+            <li>Early detection is crucial for improving outcomes, so it's important to recognize the signs and symptoms, such as persistent fatigue, unexplained weight loss, easy bruising or bleeding, and frequent infections.</li>
+            <li>Treatment options for blood cancer may include chemotherapy, radiation therapy, immunotherapy, targeted therapy, and stem cell transplantation.</li>
+            <li>Supportive care, such as blood transfusions, medications to manage symptoms, and psychological support, plays a vital role in improving quality of life for patients undergoing treatment.</li>
+            <li>Advances in research have led to significant progress in understanding the biology of blood cancers and developing new treatment approaches, offering hope to patients and their families.</li>
+            <li>During Blood Cancer Awareness Month, various organizations and communities host events, fundraisers, and educational campaigns to raise awareness, support patients and families, and fund research initiatives.</li>
+            <li>By increasing awareness, supporting research, and advocating for improved access to care, we can make a difference in the lives of those affected by blood cancer.</li>
+        </ul>
+    </div>
+
+    <script>
+        document.querySelector('#file-upload').addEventListener('change', function(event) {
+            var file = event.target.files[0];
+            var reader = new FileReader();
+            
+            reader.onload = function(event) {
+                var img = document.createElement('img');
+                img.src = event.target.result;
+                img.classList.add('uploaded-image');
+                document.getElementById('image-container').innerHTML = '';
+                document.getElementById('image-container').appendChild(img);
+            };
+            
+            reader.readAsDataURL(file);
+        });
+    </script>
+</body>
+</html>
