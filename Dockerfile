@@ -1,18 +1,17 @@
-# Use Python 3.8 slim image as the base
-FROM python:3.8-slim
+# Use the official TensorFlow image as the base image
+FROM tensorflow/tensorflow:2.15.0
 
-# Install TensorFlow version 2.15.0
-RUN pip install tensorflow==2.15.0
-
-# Set working directory
+# Set the working directory within the container
 WORKDIR /app
 
-# Copy requirements.txt and install dependencies
-COPY requirements.txt /app/
-RUN pip install --no-cache-dir -r requirements.txt
+# Copy the current directory contents into the container at /app
+COPY . /app
 
-# Copy the entire project directory into the container
-COPY . /app/
+# Install required Python packages
+RUN pip install Flask opencv-python-headless pymongo
 
-# Set the command to run the Flask application
+# Expose the port on which your Flask app will run
+EXPOSE 5000
+
+# Command to run the Flask application
 CMD ["python", "app.py"]
