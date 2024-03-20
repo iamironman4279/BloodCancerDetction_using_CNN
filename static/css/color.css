@@ -1,0 +1,504 @@
+/* Color schemes predefined */
+
+.black,
+body,
+a,
+a:hover,
+.dn-toggle .btn-primary,
+.each-blog:hover .blog-image .date-label,
+.scroll-btn,
+.btn-green:hover,
+.line-btn.black,
+.dnate-se-form-inp .form-control,
+.header-3 .social-head li a i,
+.header-3 .social-icons.team-social.footer-social li:after,
+.social-shate .social-icons li a i,
+.prdt-tab .nav-pills .nav-link.active, 
+.prdt-tab .nav-pills .show>.nav-link
+ {
+    color: #33322d;
+}
+
+
+/* ....................................
+2. _Color _light _white css and phases
+.......................................*/
+
+.light-white,
+.btn-shade-green,
+.btn-shade-yellow:hover,
+.btn.btn-black,
+.btn-black-border:hover,
+.each-case:hover h3 a,
+.each-case:hover h3,
+.each-case:hover p,
+.dashed-play-btn i,
+.header-1.header-2 .main-menu-1 >div>ul>li>a,
+.abt-amount,
+.btn-green,
+.each-case-2 .raised-now,
+.dnate-se-icns .icn-box,
+.news-bog .blog-text,
+.owl-carousel.main-slider-3 .owl-nav button:hover,
+.achieved span,
+.evnt-date-count .count-3 h1 sup,
+.evnt-date-count .count-3,
+.each-shop-list .shp-buttons .view-more:hover  {
+    color: #fffaf2;
+}
+
+
+/* ....................................
+3. Color _yellow_
+.......................................*/
+
+.yellow,
+.abt-counts h1,
+.each-case .case-btn,
+.social-icons.team-social li a:hover,
+.each-team:hover .team-text h3,
+.footer-links li a:hover,
+.abot-ftr a,
+.footer-social a:hover i,
+.bnt-case-btn:hover .arrow1,
+.abt-cont-2 h3,
+.line-btn,
+.line-btn:hover,
+.each-team-2 .team-2-text .team-social li i,
+.each-team-2 .social-icons.team-social li:after,
+.each-quotes-2 .text-quote-2 p::first-letter,
+.each-quotes-2 .text-quote-2 .quote-2-by,
+.testimonial-2 .owl-nav button:hover i,
+.who-we-boxes .readmore,
+.each-sml-blog .sml-blog-texts p,
+.each-sml-blog .sml-blog-texts .line-btn,
+.news-bog:hover .blog-text a,
+.header-3 .social-head li a:hover i,
+.inner-bnr-nav li a,
+.check-pints li i,
+.list-categiry li a:hover,
+.tag-link:hover,
+.pagination-sml li.active a,
+.pagination-sml li a:hover,
+.tag-list li a:hover,
+.blog-grid-text .line-r-btn a,
+.each-blog-grid:hover .blog-grid-text h4 a,
+.achieved .percent,
+.each-events .evnt-text .readmore,
+.evnt-date-count .count-3 h1,
+.portfolio-item-img:hover .portfolio-overlay  .gallery-links,
+.each-shop-list .shp-buttons .add-cart:hover,
+.each-shop-list:hover .shop-text h4 a,
+.team-detail .check-list li span,
+.check-list-2 li:before,
+.cmng-clock .clock-count .count-3 h1 {
+    color: #f1b85c;
+}
+
+
+/* ....................................
+4. Color _green_
+.......................................*/
+
+.green,
+.dashed-play-btn.l-cased i,
+.each-team-2 .team-2-text .team-social li a:hover i,
+.short-links-box .short-links-inner .plus-btn,
+.each-events:hover .evnt-text h3 a,
+.cmng-clock .clock-count .count-3 h1 sup {
+    color: #475443;
+}
+
+
+/*shadow _yellow_*/
+
+.shadow-yellow {
+    text-shadow: 0 4px 8px rgba(241, 183, 91, 0.5);
+}
+
+
+/* ....................................
+5. Bg _black_
+.......................................*/
+
+.bg-black,
+.btn.btn-black,
+.donate-form-main .dn-toggle .btn-primary.active,
+.donate-form-main .dn-toggle .btn-primary:active,
+.btn-black-border:hover,
+.location-list li a:hover:before,
+.dnate-se-form-inp .btn-primary,
+.each-shop-list .shp-buttons .view-more:hover  {
+    background: #33322d;
+}
+
+
+/*black_ bg opacity classes_ */
+
+.bg-black-op-9 {
+    background: rgba(51, 50, 46, 0.9);
+}
+
+.bg-black-op-8 {
+    background: rgba(51, 50, 46, 0.8);
+}
+
+.bg-black-op-7 {
+    background: rgba(51, 50, 46, 0.7);
+}
+
+.bg-black-op-6 {
+    background: rgba(51, 50, 46, 0.6);
+}
+
+.bg-black-op-5 {
+    background: rgba(51, 50, 46, 0.5);
+}
+
+.bg-black-op-4 {
+    background: rgba(51, 50, 46, 0.4);
+}
+
+.bg-black-op-3 {
+    background: rgba(51, 50, 46, 0.3);
+}
+
+.bg-black-op-2 {
+    background: rgba(51, 50, 46, 0.2);
+}
+
+.bg-black-op-1 {
+    background: rgba(51, 50, 46, 0.1);
+}
+
+.bg-black-op-0 {
+    background: rgba(51, 50, 46, 0);
+}
+
+
+/* ....................................
+6. background yellow css
+.......................................*/
+
+.bg-yellow,
+.main-menu-1 ul>li:hover>.submenu,
+.main-menu-1 ul li a.active:after,
+.main-menu-1 ul li a.active:before,
+.btn-shade-yellow::before,
+.btn-shade-yellow,
+.donate-form-main[data-overlay]:before,
+.video-area-yel[data-overlay]:before,
+.location-list li a:before,
+.location-list li a:hover,
+.each-blog:hover .blog-image .date-label,
+.footer-links li a:before,
+.scroll-btn,
+.banner-mav-arrows-2 .left-sl2:before,
+.banner-mav-arrows-2 .right-sl2:before,
+.bnr-bar-bar .progress .progress-bar,
+.bnr-bar-bar .progress .progress-bar:after,
+.abt-experience:before,
+.dashed-play-btn.l-cased,
+.btn-green:hover,
+.each-team-2 .team-2-text .arrow-team-2:before,
+.each-quotes-2 .text-quote-2 .quote-2-by:after,
+.f-quote-by:after,
+.newsletter-2[data-overlay]:before,
+.btn.btn-yellow,
+.we-believe-box:before,
+.each-sml-blog:before,
+.owl-carousel.main-slider-3 .owl-nav button,
+.short-links-box .short-links-inner .plus-btn,
+.contact-form[data-overlay]:before,
+.history-lists li .history-evnt h3:before,
+.owl-carousel.post-image-slider .owl-nav .owl-next,
+.owl-carousel.post-image-slider .owl-nav .owl-prev,
+.sidebar-social li a:hover,
+.block-quote-by:before,
+.social-shate .social-icons li a:hover,
+.blog-grid-text .line-r-btn:after,
+.each-blog-grid .blog-grid-img span,
+.menu-share .share i,
+.sele-amount .amnt-ye button,
+.donate-steps .donate-steps-each:before,
+.donate-steps-each .step-count,
+.contact-p-fill[data-overlay]:before,
+.contact-p-fill:after,
+.main-event[data-overlay]:before,
+.each-shop-list .shp-buttons .add-cart,
+.prdt-tab .nav-pills .nav-link.active, 
+.prdt-tab .nav-pills .show>.nav-link,
+.form-area-lg[data-overlay]:before,
+.flipper .back,
+.experience li:before,
+.experience li:after,
+.job-apply a.plus-btn,
+.loader-outer[data-overlay]:before  {
+    background: #f1b75b;
+}
+
+
+/*yellow bg opacity phases/code */
+
+.bg-yellow-op-9,
+.portfolio-item-img  .portfolio-overlay {
+    background: rgba(241, 183, 91, 0.9);
+}
+
+.bg-yellow-op-8,
+.btn-shade-green::before,
+.btn-shade-green::after {
+    background: rgba(241, 183, 91, 0.8);
+}
+
+.bg-yellow-op-7 {
+    background: rgba(241, 183, 91, 0.7);
+}
+
+.bg-yellow-op-6 {
+    background: rgba(241, 183, 91, 0.6);
+}
+
+.bg-yellow-op-5 {
+    background: rgba(241, 183, 91, 0.5);
+}
+
+.bg-yellow-op-4,
+.bnr-bar-bar .progress {
+    background: rgba(241, 183, 91, 0.4);
+}
+
+.bg-yellow-op-3 {
+    background: rgba(241, 183, 91, 0.3);
+}
+
+.bg-yellow-op-2 {
+    background: rgba(241, 183, 91, 0.2);
+}
+
+.bg-yellow-op-1 {
+    background: rgba(241, 183, 91, 0.1);
+}
+
+
+/*_shadow yellow and yello shades*/
+
+.btn-shade-green,
+.btn-shade-yellow:hover {
+    -webkit-box-shadow: 4px 4px #f1b85c;
+    box-shadow: 4px 4px rgba(241, 183, 91, 0.6);
+}
+
+.shadow-b{
+    -webkit-box-shadow: 11px 11px #f1b85c;
+    box-shadow: 11px 11px rgba(241, 183, 91, 0.6);
+}
+
+
+.blob {
+    box-shadow: 0 0 0 0 rgb(241, 183, 91);
+    animation: pulse-yellow 2s infinite;
+}
+
+@keyframes pulse-yellow {
+    0% {
+        box-shadow: 0 0 0 0 rgba(241, 183, 91, 0.7);
+    }
+    70% {
+        box-shadow: 0 0 0 30px rgba(241, 183, 91, 0);
+    }
+    100% {
+        box-shadow: 0 0 0 0 rgba(241, 183, 91, 0);
+    }
+}
+
+@keyframes pulse-yellow-small {
+    0% {
+        box-shadow: 0 0 0 0 rgba(241, 183, 91, 0.7);
+    }
+    70% {
+        box-shadow: 0 0 0 15px rgba(241, 183, 91, 0);
+    }
+    100% {
+        box-shadow: 0 0 0 0 rgba(241, 183, 91, 0);
+    }
+}
+.error-404 h1 {
+    text-shadow: 0px 8px 0px #f1b85c;
+}
+/* ....................................
+7. Bg green with shades and other cases
+.......................................*/
+
+.bg-green,
+.btn-shade-green,
+.each-case:hover:before,
+.dashed-play-btn,
+.each-blog .blog-image:before,
+.footer-newsletter .callback-footer-2 .btn,
+.header-1 .mean-container .mean-nav ul,
+.banner-mav-arrows-2 .left-sl2:hover:before,
+.banner-mav-arrows-2 .right-sl2:hover:before,
+.abt-amount:before,
+.case-latest[data-overlay]:before,
+.btn-green,
+.dnate-se-form-inp .btn-primary:hover,
+.dnate-se-form-inp .btn-primary:active,
+.dnate-se-form-inp .btn-primary:focus,
+.news-bog,
+.owl-carousel.main-slider-3 .owl-nav button:hover,
+.inner-bnr[data-overlay]:before,
+.short-links-box,
+.case-status-bar .bnr-bar-bar .progress .progress-bar,
+.case-status-bar .bnr-bar-bar .progress .progress-bar:after,
+.evnt-date-count .count-3,
+.portfolio-item-img:hover .portfolio-overlay  .gallery-links,
+.job-list:after,
+.loader:before  {
+    background: #475443;
+}
+
+
+/* green colr with shades*/
+
+.bg-green-op-9 {
+    background: rgba(71, 84, 67, 0.9);
+}
+
+.bg-green-op-8,
+.btn-shade-yellow::before,
+.btn-shade-yellow::after {
+    background: rgba(71, 84, 67, 0.8);
+}
+
+.bg-green-op-7,
+.achieved  {
+    background: rgba(71, 84, 67, 0.7);
+}
+
+.bg-green-op-6 {
+    background: rgba(71, 84, 67, 0.6);
+}
+
+.bg-green-op-5 {
+    background: rgba(71, 84, 67, 0.5);
+}
+
+.bg-green-op-4,
+.case-status-bar .bnr-bar-bar .progress {
+    background: rgba(71, 84, 67, 0.4);
+}
+
+.bg-green-op-3 {
+    background: rgba(71, 84, 67, 0.3);
+}
+
+.bg-green-op-2 {
+    background: rgba(71, 84, 67, 0.2);
+}
+
+.bg-green-op-1 {
+    background: rgba(71, 84, 67, 0.1);
+}
+
+.bg-green-op-0 {
+    background: rgba(71, 84, 67, 0);
+}
+
+
+
+.btn-shade-green:hover,
+.btn-shade-yellow {
+    -webkit-box-shadow: 4px 4px #475443;
+    box-shadow: 4px 4px #475443;
+}
+
+.bg-light-white,
+.about-ath-img:before,
+.input-white,
+.each-sml-blog,
+.each-shop-list .shp-buttons .add-cart:hover,
+.job-list {
+    background: #fffaf2;
+}
+
+
+/* ....................................
+9. _Border _ye@llow
+.......................................*/
+
+.border-yellow,
+.dashed-play-btn.l-cased:before,
+.each-quotes-2 .img-quote-2 .user-image,
+.each-team .team-img .team-img,
+.we-are-video,
+.who-we-boxes:hover,
+.search-white,
+.blog-tag,
+.donate-steps-each.personal .form-control:focus,
+.contact-map iframe,
+.faq-boxes .card:hover,
+.each-shop-list .shp-buttons .add-cart,
+.prdt-form .input-white,
+.cart-table thead tr th,
+.team-detail .check-list li span,
+.cmn-newsletter .form-control,
+.input-search {
+    border-color: #f1b75b;
+}
+
+
+/*_border bottom_ */
+
+.link-line,
+.main-menu-1 li .submenu:before,
+.line-btn,
+.pagination-sml li.active a,
+.pagination-sml li a:hover,
+.login-section .card {
+    border-bottom-color: #f1b75b;
+}
+
+
+/*border_ _left*/
+
+.link-line,
+.bnr-case-text:after{
+    border-left-color: #f1b75b;
+}
+
+
+/*border_ top*/
+
+.partner:hover .partner-logo:after {
+    border-top-color: #f1b75b;
+}
+
+
+/* ....................................
+10. Border_ black_
+.......................................*/
+
+.border-black,
+.dn-toggle .btn-primary,
+.donate-form-main .dn-toggle .btn-primary.active,
+.donate-form-main .dn-toggle .btn-primary:active,
+.btn-black-border,
+.dashed-play-btn:before,
+.dnate-se-form-inp .form-control,
+.bnr-case-text .bnr-case-tag,
+.case-2-texts .case-2-tag  {
+    border-color: #33322e;
+}
+
+
+/* ....................................
+11. _Border _light _white
+.......................................*/
+
+.border-black,
+.each-team:hover .team-img,
+.pagination-sml li a  {
+    border-color: #fffaf2;
+}
+
