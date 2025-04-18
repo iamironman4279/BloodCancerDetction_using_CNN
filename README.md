@@ -64,23 +64,9 @@ _Add screenshots here if available (e.g., homepage, prediction result)._
 
 ---
 
-## 📜 License
-
-This project is open-source and available under the [MIT License](LICENSE).
-
----
-
 ## 👤 Author
 
 **Guduru Hemanth Kumar Reddy**  
 🔗 GitHub: [@iamironman4279](https://github.com/iamironman4279)
 
 ---
-
-## 🙌 Contributions
-
-Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
-
-```
-
-Would you like me to include a badge section (like Docker, GitHub Actions, etc.) or add a sample image prediction flow diagram?
