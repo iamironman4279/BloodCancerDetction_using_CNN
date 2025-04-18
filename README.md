@@ -44,62 +44,7 @@ A deep learning-based web application for detecting blood cancer using Convoluti
 
 ### 🐳 Run with Docker
 
-```bash
-docker-compose up --build
-Here’s a professional `README.md` file you can use for your **BloodCancerDetection_using_CNN** project:
 
----
-
-```markdown
-# 🩸 Blood Cancer Detection Using CNN
-
-A deep learning-based web application for detecting blood cancer using Convolutional Neural Networks (CNN). The application is containerized with Docker and easily deployable using Docker Compose.
-
----
-
-## 🚀 Features
-
-- Blood smear image upload and prediction
-- Trained CNN model (`weights.hdf5`) for accurate detection
-- Flask-based web interface
-- Dockerized setup for smooth deployment
-
----
-
-## 🛠️ Tech Stack
-
-- Python
-- Flask
-- CNN (Keras/TensorFlow)
-- HTML/CSS/JavaScript
-- Docker & Docker Compose
-
----
-
-## 📁 Repository Highlights
-
-- `app.py`: Main Flask application
-- `templates/`: HTML pages for frontend
-- `static/`: CSS and image files
-- `weights.hdf5`: Pre-trained CNN model
-- `Dockerfile`: Builds the image
-- `docker-compose.yml`: Orchestrates containers
-- `requirements.txt`: Python dependencies
-
----
-
-## 📦 Setup Instructions
-
-### 🔧 Prerequisites
-
-- Docker & Docker Compose installed
-- (Optional) Python 3.8+ for local testing
-
-### 🐳 Run with Docker
-
-```bash
-docker-compose up --build
-```
 
 Visit `http://localhost:5000` in your browser.
 
